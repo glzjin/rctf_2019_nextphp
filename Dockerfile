@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.17.10
 
 COPY _files/docker-php-* /usr/local/bin/
 COPY src /var/www/html
